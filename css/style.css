@@ -1,0 +1,237 @@
+@font-face {
+    /* lite */
+    font-family: "Muller"; 
+    font-style: normal;
+    font-weight: 300;
+    src: local("Muller"),
+        url("/fonts/MullerLight.woff2") format("woff2"),
+        url("/fonts/MullerLight.woff") format("woff");
+}
+@font-face {
+    /* normal regular  */
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Muller"),
+        url("/fonts/MullerRegular.woff2") format("woff2"),
+        url("/fonts/MullerRegular.woff") format("woff");
+}
+@font-face {
+    /* medium */
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Muller"),
+        url("/fonts/MullerMedium.woff2") format("woff2"),
+        url("/fonts/MullerMedium.woff1") format("woff");
+}
+@font-face {
+    /* bold */
+    font-family: "Muller";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Muller"),
+        url("/fonts/MullerBold.woff2") format("woff2"),
+        url("/fonts/MullerBold.woff") format("woff");
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+    font-family: "Muller";
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.btn{
+    display: inline-block;
+    background-color: #fff;
+    color: #cc9933;
+    font-size: 16px;
+    line-height: 1;
+    padding: 13px 20px;
+    border: 1px solid #cc9933;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.title{
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    color: #333;
+}
+/* Header */
+.header{
+    margin-top: 30px;
+}
+.header-up{
+    display: flex;
+    align-items: center;
+}
+.header-nuber{
+    margin-right: auto;
+    margin-left: 40px;
+    color: #666;
+    font-weight: 500;
+}
+.header-up-right{
+    display: flex;
+    align-items: center;
+}
+.link-account{
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #CC9933;
+}
+.header-icon{
+    width: 24px;
+    height: 24px;
+}
+.header-down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    flex-wrap: nowrap;
+}
+.nav-list-right{
+    margin-top: 27px;
+    margin-bottom: 27px;
+    display: flex;
+}
+.nav-item{
+    margin-left: 45px;
+    color: #666;
+}
+.nav-link{
+    color: #666;
+}
+.header-down-left{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-right: 45px;
+}
+.rigtht-btn{
+    margin-left: 40px;
+}
+
+/* section special offer */
+.special-cont{
+    margin-top: 104px;
+}
+.container-cards-section{
+    display: flex;
+    justify-content: space-between;
+}
+.child-wrap{
+    min-width: 573px;
+    min-height: 258px;
+    outline: 2px solid black;
+}
+.child-wrap-margins{
+    margin-bottom: 23px;
+}
+.wrap-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.container-cards-section{
+    flex-grow: 1;
+}
+.container-card{
+    min-height: 540px;
+    min-width: 573px;
+    outline: 3px solid rebeccapurple;
+    flex-grow: 1;
+    margin-left: 23px;
+}
+.item-title{
+    margin: 40px 0 15px 40px;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}
+.prise-item{
+    margin: 0 0 47px 40px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.link-more{
+    margin: 0 0 40px 40px;
+}
+.lux-title{
+    margin: 211px 0 15px 40px;
+    font-size: 60px;
+    line-height: 60px;
+}
+.price-item-lux{
+    font-size: 30px;
+    line-height: 30px;
+}
+/* О нас */
+.text{
+    margin-top: 35px;
+    margin-bottom: 70px;
+    max-width: 888px;
+}
+.p-text{
+    font-size: 16px;
+    line-height: 32px;
+}
+.servises-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.service-list-item{
+    display: flex;
+    align-items: flex-end;
+    outline: 2px solid black;
+    height: 330px;
+    width: 573px;
+}
+.link-list-servises{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+}
+.service-container-small{
+    margin: 0 126px 50px 45px;
+}
+.text-service{
+    font-size: 16px;
+    line-height: 200%;
+}
+.service-list-item-fist-child{
+    margin: 0 23px 23px 0;
+}
+.service-list-item-end-child{
+    margin: 0 0 0 23px;
+}

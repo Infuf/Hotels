@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normolize.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Hotels</title>
 </head>
 <body>
@@ -61,48 +63,50 @@
     </header>
     <main>
       <section class="special-offer">
-        <div class="container">
+        <div class="container special-cont">
           <h2 class="title">
             Спецпредложения
           </h2>
-          <ul class="tour-list">
-            <li class="tour-item">
-              <h3 class="item-title">
-                Мальдивские острова
-              </h3>
-              <p class="prise-item">
-                от 55000 р 
-              </p>
-              <a href="#" class="link-more">
-                Подробнее
-                <svg class="link-icon-list" width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#FFCC66" stroke-width="2"/></svg>
-              </a>
-            </li>
-            <li class="tour-item">
-              <h3 class="item-title">
-                Горяций тур на острове Крит
-              </h3>
-              <p class="prise-item">
-                от 30000 р 
-              </p>
-              <a href="#" class="link-more">
-                Подробнее
-                <svg class="link-icon-list" width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#FFCC66" stroke-width="2"/></svg>
-              </a>
-            </li>
-            <li class="tour-item">
-              <h3 class="item-title">
-                Номера катигории люкс
-              </h3>
-              <p class="prise-item">
-                от 5000 р 
-              </p>
-              <a href="#" class="link-more">
-                Подробнее
-                <svg class="link-icon-list" width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#FFCC66" stroke-width="2"/></svg>
-              </a>
-            </li>
-          </ul>
+          <div class="container-cards-section">
+            <div class="wrap-container">
+              <div class="child-wrap child-wrap-margins">
+                <h3 class="item-title">
+                  Мальдивские<br>острова
+                </h3>
+                <p class="prise-item">
+                  от 55 000 р 
+                </p>
+                <a href="#" class="link-more">
+                  Подробнее
+                  <svg class="link-icon-list" width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#FFCC66" stroke-width="2"/></svg>
+                </a>
+              </div>
+              <div class="child-wrap">
+                <h3 class="item-title">
+                  Горяций тур<br> на острове Крит
+                </h3>
+                <p class="prise-item">
+                  от 30 000 р 
+                </p>
+                <a href="#" class="link-more">
+                  Подробнее
+                  <svg class="link-icon-list" width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#FFCC66" stroke-width="2"/></svg>
+                </a>
+              </div>
+            </div>
+            <div class="container-card">
+              <h3 class="item-title lux-title">
+              Номера<br>катигории<br>люкс
+            </h3>
+            <p class="prise-item price-item-lux">
+              от 5000 р 
+            </p>
+            <a href="#" class="link-more">
+              Подробнее
+              <svg class="link-icon-list" width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.49998 1.00002L9.27815 8.7782L1.49998 16.5564" stroke="#FFCC66" stroke-width="2"/></svg>
+            </a>
+          </div>
+          </div>
           <div class="text">
             <h2 class="title">
               О нас
@@ -119,7 +123,7 @@
             Услуги
           </h2>
           <ul class="servises-list">
-            <li class="service-list-item">
+            <li class="service-list-item service-list-item-fist-child">
               <div class="service-container">
                 <div class="service-container-small">  
                   <a href="#" class="link-list-servises">
@@ -155,7 +159,7 @@
                 </div>
               </div>
             </li>
-            <li class="service-list-item">
+            <li class="service-list-item service-list-item-end-child">
               <div class="service-container">
                 <div class="service-container-small">  
                   <a href="#" class="link-list-servises">
@@ -372,11 +376,13 @@
         </div>
       </section>
       <section class="section-contact">
-        <h2 class="title">
-          Контакты
-        </h2>
-        <ul class="contacts-list">
-          <li class="contacts-list-item">
+        <div class="container">
+
+          <h2 class="title">
+            Контакты
+          </h2>
+          <ul class="contacts-list">
+            <li class="contacts-list-item">
             <div class="section-contact-block">
               <div class="contacts-info">
                 Адрес
@@ -427,6 +433,7 @@
         </ul>
         <a href="#" class="btn">Построиь машрут</a>
         <img src="/img/Layer-2.jpg" alt="Фото Офиса" class="contacts-image">
+      </div>
       </section>
     </main>
     <footer class="footer">
